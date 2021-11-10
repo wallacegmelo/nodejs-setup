@@ -19,4 +19,4 @@ server.get('/', (request: Request, response: Response) => {
   response.send('Hello Word')
 })
 
-server.listen(PORT, HOST, () => console.log('Server running 🔥'))
+server.listen(PORT, HOST, () => console.log('Server running 🔥'));
